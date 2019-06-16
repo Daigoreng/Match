@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>ブログ情報入力画面</title>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/match.js"></script>
+  <link rel="stylesheet" href="css/my.css" type="text/css">
+</head>
+
+<body>
+  <div id="map"></div>
+  <div id="right">
+    <div id="rss">
+      <select id="rss_select" multiple></select>
+    </div>
+    <div id="res">
+      <table border=1 width=100%>
+        <tr><th colspan=2 bgcolor=#00ffff>マップのピンの情報</th></tr>
+        <tr><th>ID:</th><td id="map_id"></td></tr>
+        <tr><th>Date:</th><td id="map_date"></td></tr>
+        <tr><th colspan=2 bgcolor=#00ffff>ブログの情報</th></tr>
+        <!-- 済みボタンの判定で#rss_titleの中身をtitleとしているためdescription表示を分けた -->
+        <tr><th>Title:</th><td id="rss_title"></td></tr>
+        <tr><th>Desc:</th><td id="rss_desc"></td></tr>
+        <tr><th>Date:</th><td id="rss_date"></td></tr>
+        <tr><th>URL:</th><td id="rss_url"></td></tr>
+      </table>
+      <p align=center><button id="bt_regist">登録</button></p>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqanfe-UmXSw-DujWIivsmNFAj-OA5jZw&libraries=geometry"></script>
+</body>
+
+</html>
