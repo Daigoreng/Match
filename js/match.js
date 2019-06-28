@@ -267,6 +267,6 @@ $(function () {
   get_pony_arrive('get_limited_arrives.php', {
     limit: 100,
   });
-  get_rss('get_rss2.php', 'https://blogs.mbc.co.jp/smile/category/cat_smile/feed');
-  get_rss('get_rss1.php', 'http://blog.mbc.co.jp/asa/index.rdf');
+  get_rss('get_rss2.php', 'https://blogs.mbc.co.jp/smile/category/cat_smile/feed'); // モーニングスマイル
+  get_rss('get_rss2.php', 'https://blogs.mbc.co.jp/asa/feed/'); // 土曜の朝は
 });

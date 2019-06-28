@@ -31,4 +31,6 @@ div#res {
 select#rss_select {
   width: 100%;
   height: 100%;
+  /* 日付が隠れていたので横スクロールバーをつけた */
+  overflow: auto;
 }
